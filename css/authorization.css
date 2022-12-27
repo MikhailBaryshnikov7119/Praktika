@@ -1,0 +1,15 @@
+.container_authorization {
+    padding: 100px;
+}
+
+.block_authorization {
+    width: 400px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 4px 5px 15px rgb(147, 65, 224), 5px 0px 15px rgb(20, 215, 137), 5px 0px 15px rgb(206, 78, 245);
+}
+
+.form-floating input {
+    background: #ffffff;
+}

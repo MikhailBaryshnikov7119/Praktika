@@ -1,0 +1,78 @@
+/* HEADER */
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    /* margin-right: 150px; */
+    position: relative;
+    z-index: 10;
+}
+
+.header_wrap {
+    width: 100%;
+    /* max-width: 1200px; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headermenu {
+    width: 490px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #f8f6fa;
+}
+.link_text {
+    color: #ffffff;
+    text-decoration: none;
+}
+.home {
+}
+.feature {
+    color: rgb(134, 134, 134);
+}
+.contact {
+    color: rgb(134, 134, 134);
+}
+.product {
+    color: rgb(134, 134, 134);
+}
+.bildnow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 56px;
+    background: linear-gradient(97.62deg, #eb11aa -15.99%, #2e81e2 104.3%);
+    border-radius: 2px;
+    transition: 500ms;
+    cursor: pointer;
+}
+.bildnow:hover {
+    /* эфект при наведении */
+    background: linear-gradient(97.62deg, #cf1096 -15.99%, #2469b8 104.3%);
+    transition: 500ms;
+}
+
+.title {
+    display: flex;
+    justify-content: space-around;
+    column-gap: 10px;
+}
+.base {
+    width: 47px;
+    height: 38px;
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 150%;
+    color: #ffffff;
+}
